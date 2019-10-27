@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "pandorica",
+  "version": "${version}",
+
+  "name": "Pandorica",
+  "description": "The Pandorica opens...",
+  "authors": [
+    "Edmord",
+    "Andante"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/pandorica/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.pandorica.Pandorica"
+    ]
+  },
+  "mixins": [],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
