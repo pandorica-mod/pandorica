@@ -2,7 +2,9 @@
     "mod.pandorica.name": "Pandorica",
 
     "block.pandorica.basalt": "Basalt",
+    "block.pandorica.eruption_block": "Eruption Block",
     "block.pandorica.nether_gold_ore": "Nether Gold Ore",
 
-    "item.pandorica.basalt_dust": "Basalt Dust"
+    "item.pandorica.basalt_dust": "Basalt Dust",
+    "item.pandorica.crusted_magma": "Crusted Magma"
 }

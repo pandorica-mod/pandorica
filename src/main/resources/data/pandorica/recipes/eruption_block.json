@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CN",
+        "NC"
+    ],
+    "key": {
+        "N": {
+            "item": "minecraft:netherrack"
+        },
+        "C": {
+            "item": "pandorica:crusted_magma"
+        }
+    },
+    "result": {
+        "item": "pandorica:eruption_block",
+        "count": 2
+    }
+}

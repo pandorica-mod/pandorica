@@ -1,35 +1,30 @@
 {
-  "schemaVersion": 1,
-  "id": "pandorica",
-  "version": "${version}",
-
-  "name": "Pandorica",
-  "description": "The Pandorica opens...",
-  "authors": [
-    "Edmord",
-    "Andante"
-  ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
-
-  "license": "CC0-1.0",
-  "icon": "assets/pandorica/icon.png",
-
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.pandorica.Pandorica"
-    ]
-  },
-  "mixins": [],
-
-  "depends": {
-    "fabricloader": ">=0.4.0",
-    "fabric": "*"
-  },
-  "suggests": {
-    "flamingo": "*"
-  }
+    "schemaVersion": 1,
+    "id": "pandorica",
+    "version": "${version}",
+    "name": "Pandorica",
+    "description": "A Nether improvement mod for 1.14+",
+    "authors": [
+        "The Pandorica Development Team"
+    ],
+    "contact": {
+        "homepage": "https://pandorica-mod.github.io",
+        "sources": "https://github.com/pandorica-mod/pandorica"
+    },
+    "license": "GPL-3",
+    "icon": "assets/pandorica/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "net.pandorica.Pandorica"
+        ]
+    },
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.4.0",
+        "fabric": "*"
+    },
+    "suggests": {
+        "flamingo": "*"
+    }
 }

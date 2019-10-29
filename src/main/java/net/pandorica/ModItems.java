@@ -7,10 +7,12 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
     public static final Item BASALT_DUST = new Item(new Item.Settings().group(ItemGroup.MISC));
+    public static final Item CRUSTED_MAGMA = new Item(new Item.Settings().group(ItemGroup.MISC));
     
     public static void registerAll()
     {
         Registry.register(Registry.ITEM, new Identifier("pandorica", "basalt_dust"), BASALT_DUST);
+        Registry.register(Registry.ITEM, new Identifier("pandorica", "crusted_magma"), CRUSTED_MAGMA);
     }
 }
 
