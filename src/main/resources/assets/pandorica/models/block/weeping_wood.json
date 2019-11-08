@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "pandorica:block/weeping_log",
+        "side": "pandorica:block/weeping_log"
+    }
+}

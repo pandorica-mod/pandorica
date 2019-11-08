@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "planks",
+    "ingredients": [
+        {
+            "tag": "pandorica:weeping_logs"
+        }
+    ],
+    "result": {
+        "item": "pandorica:weeping_planks",
+        "count": 4
+    }
+}

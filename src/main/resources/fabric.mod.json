@@ -5,11 +5,12 @@
     "name": "Pandorica",
     "description": "A Nether improvement mod for 1.14+",
     "authors": [
-        "The Pandorica Development Team"
+        "the Pandorica Development Team"
     ],
     "contact": {
         "homepage": "https://pandorica-mod.github.io",
-        "sources": "https://github.com/pandorica-mod/pandorica"
+        "sources": "https://github.com/pandorica-mod/pandorica",
+        "issues": "https://github.com/pandorica-mod/pandorica/issues"
     },
     "license": "GPL-3",
     "icon": "assets/pandorica/icon.png",
@@ -17,6 +18,9 @@
     "entrypoints": {
         "main": [
             "net.pandorica.Pandorica"
+        ],
+        "client": [
+            "net.pandorica.PandoricaClient"
         ]
     },
     "mixins": [],

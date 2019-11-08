@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "bark",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "pandorica:weeping_log"
+        }
+    },
+    "result": {
+        "item": "pandorica:weeping_wood",
+        "count": 3
+    }
+}

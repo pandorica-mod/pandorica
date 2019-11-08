@@ -1,10 +1,19 @@
 {
     "mod.pandorica.name": "Pandorica",
 
+    "itemGroup.pandorica.pandorica_group": "Pandorica",
+
     "block.pandorica.basalt": "Basalt",
     "block.pandorica.eruption_block": "Eruption Block",
+    "block.pandorica.nether_brick_chest": "Nether Brick Chest",
     "block.pandorica.nether_gold_ore": "Nether Gold Ore",
+    "block.pandorica.weeping_log": "Weeping Log",
+    "block.pandorica.weeping_planks": "Weeping Planks",
+    "block.pandorica.weeping_wood": "Weeping Wood",
 
     "item.pandorica.basalt_dust": "Basalt Dust",
-    "item.pandorica.crusted_magma": "Crusted Magma"
+    "item.pandorica.crusted_magma": "Crusted Magma",
+    "item.pandorica.liquefied_bone": "Liquefied Bone",
+
+    "entity.pandorica.liquefied_skeleton": "Liquefied Skeleton"
 }

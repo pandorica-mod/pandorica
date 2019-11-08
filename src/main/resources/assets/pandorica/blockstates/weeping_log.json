@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "axis=y": {
+            "model": "pandorica:block/weeping_log"
+        },
+        "axis=z": {
+            "model": "pandorica:block/weeping_log",
+            "x": 90
+        },
+        "axis=x": {
+            "model": "pandorica:block/weeping_log",
+            "x": 90,
+            "y": 90
+        }
+    }
+}
