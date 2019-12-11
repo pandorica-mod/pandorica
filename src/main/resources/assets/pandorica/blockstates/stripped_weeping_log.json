@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "axis=y": {
+            "model": "pandorica:block/stripped_weeping_log"
+        },
+        "axis=z": {
+            "model": "pandorica:block/stripped_weeping_log",
+            "x": 90
+        },
+        "axis=x": {
+            "model": "pandorica:block/stripped_weeping_log",
+            "x": 90,
+            "y": 90
+        }
+    }
+}

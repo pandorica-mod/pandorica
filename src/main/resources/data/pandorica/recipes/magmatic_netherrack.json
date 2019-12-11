@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "MN",
+        "NM"
+    ],
+    "key": {
+        "N": {
+            "item": "minecraft:netherrack"
+        },
+        "M": {
+            "item": "minecraft:magma_block"
+        }
+    },
+    "result": {
+        "item": "pandorica:magmatic_netherrack",
+        "count": 2
+    }
+}

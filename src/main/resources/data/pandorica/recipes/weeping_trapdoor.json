@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "wooden_trapdoor",
+    "pattern": [
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "pandorica:weeping_planks"
+        }
+    },
+    "result": {
+        "item": "pandorica:weeping_trapdoor",
+        "count": 2
+    }
+}

@@ -3,13 +3,27 @@
 
     "itemGroup.pandorica.pandorica_group": "Pandorica",
 
+    "biome.pandorica.soul_valley": "Soul Valley",
+
+    "block.pandorica.moss_infested_netherrack": "Moss-Infested Netherrack",
+    "block.pandorica.azure_moss_infested_netherrack": "Azure Moss-Infested Netherrack",
     "block.pandorica.basalt": "Basalt",
     "block.pandorica.eruption_block": "Eruption Block",
-    "block.pandorica.nether_brick_chest": "Nether Brick Chest",
+    "block.pandorica.magmatic_netherrack": "Magmatic Netherrack",
     "block.pandorica.nether_gold_ore": "Nether Gold Ore",
+    "block.pandorica.weeping_button": "Weeping Button",
+    "block.pandorica.weeping_door": "Weeping Door",
+    "block.pandorica.weeping_fence": "Weeping Fence",
+    "block.pandorica.weeping_fence_gate": "Weeping Fence Gate",
     "block.pandorica.weeping_log": "Weeping Log",
+    "block.pandorica.stripped_weeping_log": "Stripped Weeping Log",
     "block.pandorica.weeping_planks": "Weeping Planks",
+    "block.pandorica.weeping_pressure_plate": "Weeping Pressure Plate",
+    "block.pandorica.weeping_slab": "Weeping Slab",
+    "block.pandorica.weeping_stairs": "Weeping Stairs",
+    "block.pandorica.weeping_trapdoor": "Weeping Trapdoor",
     "block.pandorica.weeping_wood": "Weeping Wood",
+    "block.pandorica.stripped_weeping_wood": "Stripped Weeping Wood",
 
     "item.pandorica.basalt_dust": "Basalt Dust",
     "item.pandorica.crusted_magma": "Crusted Magma",

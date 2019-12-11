@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "pandorica:block/weeping_planks",
+        "top": "pandorica:block/weeping_planks",
+        "side": "pandorica:block/weeping_planks"
+    }
+}

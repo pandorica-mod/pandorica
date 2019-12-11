@@ -1,0 +1,6 @@
+{
+    "parent": "block/button_inventory",
+    "textures": {
+        "texture": "pandorica:block/weeping_planks"
+    }
+}

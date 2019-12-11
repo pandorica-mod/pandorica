@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_top",
+    "textures": {
+        "bottom": "pandorica:block/weeping_door_bottom",
+        "top": "pandorica:block/weeping_door_top"
+    }
+}

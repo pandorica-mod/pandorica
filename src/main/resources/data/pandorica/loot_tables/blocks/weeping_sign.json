@@ -6,13 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "functions": [
-                        {
-                            "function": "minecraft:copy_name",
-                            "source": "block_entity"
-                        }
-                    ],
-                    "name": "pandorica:nether_brick_chest"
+                    "name": "pandorica:weeping_sign"
                 }
             ],
             "conditions": [

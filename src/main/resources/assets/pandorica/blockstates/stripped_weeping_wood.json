@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "axis=y": {
+            "model": "pandorica:block/stripped_weeping_wood"
+        },
+        "axis=z": {
+            "model": "pandorica:block/stripped_weeping_wood",
+            "x": 90
+        },
+        "axis=x": {
+            "model": "pandorica:block/stripped_weeping_wood",
+            "x": 90,
+            "y": 90
+        }
+    }
+}

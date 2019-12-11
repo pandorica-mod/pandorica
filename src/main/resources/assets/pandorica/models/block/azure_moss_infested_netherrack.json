@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "block/netherrack",
+        "top": "pandorica:block/azure_moss_infested_netherrack_top",
+        "side": "pandorica:block/azure_moss_infested_netherrack_side"
+    }
+}

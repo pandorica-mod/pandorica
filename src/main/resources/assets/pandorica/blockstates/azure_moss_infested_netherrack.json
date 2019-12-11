@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "": [
+            {
+                "model": "pandorica:block/azure_moss_infested_netherrack"
+            },
+            {
+                "model": "pandorica:block/azure_moss_infested_netherrack",
+                "y": 90
+            },
+            {
+                "model": "pandorica:block/azure_moss_infested_netherrack",
+                "y": 180
+            },
+            {
+                "model": "pandorica:block/azure_moss_infested_netherrack",
+                "y": 270
+            }
+        ]
+    }
+}

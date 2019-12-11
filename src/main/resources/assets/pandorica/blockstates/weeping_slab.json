@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "pandorica:block/weeping_slab"
+        },
+        "type=top": {
+            "model": "pandorica:block/weeping_slab_top"
+        },
+        "type=double": {
+            "model": "pandorica:block/weeping_planks"
+        }
+    }
+}

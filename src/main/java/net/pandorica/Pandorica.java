@@ -16,15 +16,16 @@ import net.minecraft.util.registry.Registry;
 public class Pandorica implements ModInitializer {
 
     public static final String MOD_ID = "pandorica";
-    public static final ItemGroup PANDORICA_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "pandorica_group"), () -> new ItemStack(PandoricaItems.CRUSTED_MAGMA));
+    public static final ItemGroup PANDORICA_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "pandorica_group"), () -> new ItemStack(PandoricaBlocks.ERUPTION_BLOCK));
 
     public static final EntityType<LiquefiedSkeletonEntity> LIQUEFIED_SKELETON = Registry.register(Registry.ENTITY_TYPE, new Identifier(MOD_ID, "liquefied_skeleton"), FabricEntityTypeBuilder.create(EntityCategory.MONSTER, LiquefiedSkeletonEntity::new).setImmuneToFire().size(EntityDimensions.fixed(.7F, 2.4F)).build());
 
     @Override
     public void onInitialize() {
         // register items and blocks
-        PandoricaItems.registerAll();
+        PandoricaBiomes.registerAll();
         PandoricaBlocks.registerAll();
+        PandoricaItems.registerAll();
         
         // world gen
         PandoricaWorldGen.addNetherOres();
