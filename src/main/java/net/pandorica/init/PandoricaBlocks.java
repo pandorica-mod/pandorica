@@ -30,8 +30,8 @@ public class PandoricaBlocks {
     public static final Block STRIPPED_WEEPING_LOG = new LogBlock(null, FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG).build());
     public static final Block WEEPING_PLANKS = new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).build());
     public static final Block WEEPING_PRESSURE_PLATE = new CustomPressurePlateBlock(null, FabricBlockSettings.copy(Blocks.OAK_PRESSURE_PLATE).build());
-    public static final Block WEEPING_SIGN = new SignBlock(FabricBlockSettings.copy(Blocks.OAK_SIGN).build());
-    public static final Block WEEPING_WALL_SIGN = new WallSignBlock(FabricBlockSettings.copy(Blocks.OAK_WALL_SIGN).build());
+    public static final Block WEEPING_SIGN = new SignBlock(FabricBlockSettings.copy(Blocks.OAK_SIGN).build(), null);
+    public static final Block WEEPING_WALL_SIGN = new WallSignBlock(FabricBlockSettings.copy(Blocks.OAK_WALL_SIGN).build(), null);
     public static final Block WEEPING_STAIRS = new CustomStairsBlock(WEEPING_PLANKS.getDefaultState(), FabricBlockSettings.copy(Blocks.OAK_STAIRS).build());
     public static final Block WEEPING_SLAB = new SlabBlock(FabricBlockSettings.copy(Blocks.OAK_SLAB).build());
     public static final Block WEEPING_TRAPDOOR = new CustomTrapdoorBlock(FabricBlockSettings.copy(Blocks.OAK_TRAPDOOR).build());

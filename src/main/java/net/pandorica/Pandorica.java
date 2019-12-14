@@ -28,7 +28,7 @@ public class Pandorica implements ModInitializer {
         PandoricaItems.registerAll();
         
         // world gen
-        PandoricaWorldGen.addNetherOres();
-        PandoricaWorldGen.addNetherMineables();
+        // PandoricaWorldGen.addNetherOres();
+        // PandoricaWorldGen.addNetherMineables();
     }
 }

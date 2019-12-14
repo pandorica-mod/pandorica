@@ -8,8 +8,8 @@ import org.apache.commons.lang3.ArrayUtils;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.Biomes;
-import net.minecraft.world.biome.layer.InitLayer;
-import net.minecraft.world.biome.layer.LayerRandomnessSource;
+import net.minecraft.world.biome.layer.type.InitLayer;
+import net.minecraft.world.biome.layer.util.LayerRandomnessSource;
 
 public enum NetherBiomeLayer implements InitLayer {
     INSTANCE;
@@ -48,5 +48,4 @@ public enum NetherBiomeLayer implements InitLayer {
     public Biome[] getBiomes() {
         return biomesArray;
     }
-
 }

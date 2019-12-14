@@ -12,7 +12,7 @@ public class LiquefiedSkeletonEntityRenderer extends WitherSkeletonEntityRendere
     }
     
     @Override
-    protected Identifier method_4119(AbstractSkeletonEntity abstractSkeletonEntity_1) {
+	public Identifier getTexture(AbstractSkeletonEntity abstractSkeletonEntity_1) {
         return new Identifier("pandorica:textures/entity/skeleton/liquefied_skeleton.png");
     }
 }
